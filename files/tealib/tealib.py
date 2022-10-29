@@ -21,3 +21,8 @@ class list:
             return sorted(list)
         else:
             print("TEA-LIB.list.sort -> mode argument must be 'int'")
+    def reverse(list):
+        return list[::-1]
+    def skip(list, indexes):
+        return list[::int(indexes+1)]
+
